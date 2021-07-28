@@ -8,7 +8,7 @@ public class ForsumFrom1To100Example {
 			sum += i;
 			
 		}
-		System.out.println("1~100 í•©: " +sum);
+//		System.out.println("1~100ÀÇ ÇÕ: "  +sum);
 	}
 
 }
