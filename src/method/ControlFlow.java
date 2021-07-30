@@ -2,29 +2,29 @@ package method;
 
 public class ControlFlow {
 	public static void main(String[] args) {
-//		±×·¡±×·¡~~
+//		ê·¸ëž˜ê·¸ëž˜~~
 		
 		double time = 9; 
 		boolean open = true;
 		while(open) {
-//		1. °í°´IN
-		System.out.println("¾È³çÇÏ½Ê´Ï±î? °í°´´Ô");
-//		2. ¸Þ´º º¸¿©ÁÖ±â
+//		1. ê³ ê°IN
+		System.out.println("ì•ˆë…•í•˜ì‹­ë‹ˆê¹Œ? ê³ ê°ë‹˜");
+//		2. ë©”ë‰´ ë³´ì—¬ì£¼ê¸°
 		System.out.println("Display [Menu]~");
-//		3. ÁÖ¹® Á¢¼ö
-		System.out.println("»óÇ°(code) ÀÔ·Â");
-//		4. »óÇ°  Á¦Á¶
+//		3. ì£¼ë¬¸ ì ‘ìˆ˜
+		System.out.println("ìƒí’ˆ(code) ìž…ë ¥");
+//		4. ìƒí’ˆ  ì œì¡°
 		makeCoffee();
-//		5. °í°´ Àü´Þ
+//		5. ê³ ê° ì „ë‹¬
 		System.out.println("Serving...");
-//		6. °í°´OUT
-		System.out.println("¶Ç ¿À¼¼¿ä~");
+//		6. ê³ ê°OUT
+		System.out.println("ë˜ ì˜¤ì„¸ìš”~");
 		if(time > 21) {
 			open = false;
 		}
 		time++;
 		}}
-//method (ÇÔ¼ö)
+//method (í•¨ìˆ˜)
 	static void makeCoffee() {
-	System.out.println("Ä¿ÇÇ¸¸µå´Â Áß");
+	System.out.println("ì»¤í”¼ë§Œë“œëŠ” ì¤‘");
 }}

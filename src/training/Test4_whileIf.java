@@ -2,26 +2,18 @@ package training;
 
 public class Test4_whileIf {
 	public static void main(String[] args) {
-//		[1000ÀÌÇÏ ÀÚ¿¬¼ö (ÀÚ¿¬¼ö´Â 0 ¹ÌÆ÷ÇÔ) Áß¿¡¼­ 2ÀÇ ¹è¼öÀÌÀÚ 7ÀÇ ¹è¼öÀÎ ¼ö¸¦ Ãâ·ÂÇÏ°í
-// 		±× ¼öµéÀÇ ÃÑÇÕÀ» Ãâ·Â...]
-//		(while¹® ÀÌ¿ë)
-		
+//		[1000ì´í•˜ ìì—°ìˆ˜ (ìì—°ìˆ˜ëŠ” 0 ë¯¸í¬í•¨) ì¤‘ì—ì„œ 2ì˜ ë°°ìˆ˜ì´ì 7ì˜ ë°°ìˆ˜ì¸ ìˆ˜ë¥¼ ì¶œë ¥í•˜ê³ 
+// 		ê·¸ ìˆ˜ë“¤ì˜ ì´í•©ì„ ì¶œë ¥...]
+//		(whileë¬¸ ì´ìš©)
 		int num = 1;
-		int sum = 0; /*ÇÕÀ» ±¸ÇÏ´Â ½Ä¿¡¼­ ÅäÅ»°ª ÃÊ±âÈ­ÇÏ±â*/
-		
-		while (num<=1000) {
-			
-			if  ((num % 2)== 0 && (num % 7) == 0);
-			System.out.println(num);
-			sum +=num;
-					}
-		num++;
+		int sum = 0; /* í•©ì„ êµ¬í•˜ëŠ” ì‹ì—ì„œ í† íƒˆê°’ ì´ˆê¸°í™”í•˜ê¸° */
+		while (num <= 1000) {
+			num++;
+			if ((num % 2) == 0 && (num % 7) == 0) {
+				System.out.println(num);
+				sum += num;
+			}
+		}
+		System.out.println("ì´í•©: " + sum);
 	}
-		
-		System.out.println("ÃÑÇÕ: " + sum);
-	
-	}
-		
-		
-
-
+}

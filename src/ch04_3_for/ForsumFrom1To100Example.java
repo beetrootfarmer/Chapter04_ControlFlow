@@ -5,11 +5,11 @@ public class ForsumFrom1To100Example {
 		int sum = 0;
 		
 		for(int i=1; 1<=100; i++) { 
-//		forÀÇ ( ÃÊ±âÈ­°ª; Á¶°Çºñ±³; ½ÇÇà¹®) { ½ÇÇà¹®	
+//		forì˜ ( ì´ˆê¸°í™”ê°’; ì¡°ê±´ë¹„êµ; ì‹¤í–‰ë¬¸) { ì‹¤í–‰ë¬¸	
 			sum += i;
 			
 		}
-//		System.out.println("1~100ÀÇ ÇÕ: "  +sum);
+//		System.out.println("1~100ì˜ í•©: "  +sum);
 	}
 
 }

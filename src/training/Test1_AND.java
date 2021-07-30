@@ -2,17 +2,17 @@ package training;
 
 public class Test1_AND {
 	public static void main(String[] args) {
-//		[if ÇÏ³ª¸¸ »ç¿ëÇØ¼­ º¯°æ]
+//		[if í•˜ë‚˜ë§Œ ì‚¬ìš©í•´ë„ë¡ ë³€ê²½]
 		
 //		int num =120;
 //		if(num > 0) {
 //		if (num%2) == 0) {
-//				System.out.println("¾ç¼ö ÀÌ¸é¼­ Â¦¼ö");
+//				System.out.println("ì–‘ìˆ˜ ì´ë©´ì„œ ì§ìˆ˜");
 		
 		
 		int num =120;
 		if((num > 0) && ((num%2) == 0)) {
-				System.out.println("¾ç¼ö ÀÌ¸é¼­ Â¦¼ö");
+				System.out.println("ì–‘ìˆ˜ ì´ë©´ì„œ ì§ìˆ˜");
 				
 				
 			}

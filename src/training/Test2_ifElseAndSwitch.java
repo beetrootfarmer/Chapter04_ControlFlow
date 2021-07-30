@@ -3,24 +3,24 @@ package training;
 public class Test2_ifElseAndSwitch {
 	public static void main(String[] args) {
 		
-//		[switch¹®À¸·Î ¹Ù²ãº¸¼¼¿ä¿À]
+//		[switchë¬¸ìœ¼ë¡œ ë°”ê¿”ë³´ì„¸ìš”ì˜¤]
 		
 		
 //		int n = 24;
 //		if(n >= 0 && n <10) {
-//			System.out.println("0 ÀÌ»ó 10 ¹Ì¸¸ÀÇ ¼ö");
+//			System.out.println("0 ì´ìƒ 10 ë¯¸ë§Œì˜ ìˆ˜");
 //		
 //		}
 //		else if(n >=10 && n < 20) {
-//			System.out.println("10ÀÌ»ó 20¹Ì¸¸ÀÇ ¼ö");
+//			System.out.println("10ì´ìƒ 20ë¯¸ë§Œì˜ ìˆ˜");
 //		}
 //		else if(n >=20 && n < 30) {
-//			System.out.println("20ÀÌ»ó 30¹Ì¸¸ÀÇ ¼ö");
+//			System.out.println("20ì´ìƒ 30ë¯¸ë§Œì˜ ìˆ˜");
 //		}
 //		else {
-//			System.out.println("À½¼ö È¤Àº 30 ÀÌ»óÀÇ ¼ö");
+//			System.out.println("ìŒìˆ˜ í˜¹ì€ 30 ì´ìƒì˜ ìˆ˜");
 			
-		int n = (int)(Math.random()*100);/*¿Ö 100À» °öÇÏÁÒ*/
+		int n = (int)(Math.random()*100);/*ì™œ 100ì„ ê³±í•˜ì£ */
 		System.out.println(n);
 		
 		int num = n / 10;
@@ -28,30 +28,30 @@ public class Test2_ifElseAndSwitch {
 		switch (num) {
 		
 		case 0:
-				System.out.println("0 ÀÌ»ó 10 ¹Ì¸¸ÀÇ ¼ö");
+				System.out.println("0 ì´ìƒ 10 ë¯¸ë§Œì˜ ìˆ˜");
 				break;
 	
 		case 1:
-				System.out.println("10ÀÌ»ó 20¹Ì¸¸ÀÇ ¼ö");
+				System.out.println("10ì´ìƒ 20ë¯¸ë§Œì˜ ìˆ˜");
 				break;			
 		case 2:
-				System.out.println("20ÀÌ»ó 30¹Ì¸¸ÀÇ ¼ö");
+				System.out.println("20ì´ìƒ 30ë¯¸ë§Œì˜ ìˆ˜");
 				break;
 		case 3:
-				System.out.println("30ÀÌ»ó 40¹Ì¸¸ÀÇ ¼ö");
+				System.out.println("30ì´ìƒ 40ë¯¸ë§Œì˜ ìˆ˜");
 				break;
 		case 4:
-				System.out.println("40ÀÌ»ó 50¹Ì¸¸ÀÇ ¼ö");
+				System.out.println("40ì´ìƒ 50ë¯¸ë§Œì˜ ìˆ˜");
 				break;
 		default:
-				System.out.println("À½¼ö È¤Àº 50 ÀÌ»óÀÇ ¼ö");
+				System.out.println("ìŒìˆ˜ í˜¹ì€ 50 ì´ìƒì˜ ìˆ˜");
 				break;
 		}
 	}
 
 }
 
-// [¼ºÀûÇ¥ ÄÚµå·Î È°¿ëÇÏ±â]
+// [ì„±ì í‘œ ì½”ë“œë¡œ í™œìš©í•˜ê¸°]
 
 //int n = (int)(Math.random()*100);
 //System.out.println(n);

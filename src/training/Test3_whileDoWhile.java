@@ -6,17 +6,17 @@ public class Test3_whileDoWhile
 		
 
 //	while
-//	1~100 Ãâ·ÂÇÏ°í °Å²Ù·Î 100~1Ãâ·Â
+//	1~100 ì¶œë ¥í•˜ê³  ê±°ê¾¸ë¡œ 100~1ì¶œë ¥
 	int num = 1; 
 	
 
 	while(num <= 100) {
-		System.out.println(num ++);
-	} /*¿©±â¼­ ³ª¿ÔÀ» ¶§ ¿Ö 101*/
-	do 
-		{System.out.println(--num);
-	}
-	while(num >= 1);
+		System.out.println(num++);
+	} /*ì—¬ê¸°ì„œ ë‚˜ì™”ì„ ë•Œ ì™œ 101*/
+	
+	do {
+		System.out.println(--num);
+	}while(num >= 1);
 //		num += i;
 //		i++;
 //	}

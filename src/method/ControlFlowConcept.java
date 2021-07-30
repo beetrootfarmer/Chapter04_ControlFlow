@@ -3,7 +3,7 @@ package method;
 public class ControlFlowConcept {
 	public static void main(String[] args) {
 		
-//		"¿À¹ö·Îµù" (ºñ±³."¿À¹ö¶óÀÌµù")
+//		"ì˜¤ë²„ë¡œë”©" (ë¹„êµ."ì˜¤ë²„ë¼ì´ë”©")
 		add(1, 5);
 		add(11, 22);
 		add(33, 55);
