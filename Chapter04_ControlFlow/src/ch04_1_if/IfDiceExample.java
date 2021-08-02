@@ -3,7 +3,7 @@ package ch04_1_if;
 public class IfDiceExample {
 	public static void main(String[] args) {
 		int num =(int) (Math.random() * 6) + 1;
-			System.out.println(num);
+		
 		if (num==1) {
 			System.out.println("1번");
 			
